@@ -1,6 +1,6 @@
 # ⚡ MonitorApp – Real-Time Industrial Current Monitoring
 
-MonitorApp is a Windows desktop application developed in C++ using MFC, designed to monitor analog current from up to 4 industrial input channels in real time.  
+MonitorApp is a Windows desktop application developed in C++ using MFC, designed to monitor the analog current from up to four industrial input channels in real-time.  
 Built around the MODBUS RTU protocol and serial communication (RS-485), it interfaces with ICP DAS modules (I-7017RC and I-7024L) through isolated RS-232/RS-485 converters (I-7520R).
 
 This project was developed as a Bachelor’s thesis in Automation and Applied Informatics and integrates hardware communication, protocol implementation, graphical monitoring, and alerting in a single unified application.
@@ -25,8 +25,8 @@ This project was developed as a Bachelor’s thesis in Automation and Applied In
 - **PC**: Connects to both modules on separate COM ports
 
 Each path is fully independent:
-- Acquisition: `PC ↔ RS232 ↔ I-7520R ↔ I-7017RC (MODBUS RTU)`
-- Generation: `PC ↔ RS232 ↔ I-7520R ↔ I-7024L (DCON Utility)`
+- Acquisition: PC ↔ RS232 ↔ I-7520R ↔ I-7017RC
+- Generation: PC ↔ RS232 ↔ I-7520R ↔ I-7024L
 
 ---
 
